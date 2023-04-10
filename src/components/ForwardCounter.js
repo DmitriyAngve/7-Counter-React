@@ -14,7 +14,6 @@ const ForwardCounter = () => {
 
   //   return () => clearInterval(interval);
   // }, []);
-
   return <Card>{counter}</Card>;
 };
 
@@ -31,5 +30,4 @@ export default ForwardCounter;
 // STEP 4:
 // 4.1 "const counter = useCounter()" set it equal to calling used counter since use counter returns to counter i can store it in a constant of this component.
 // 4.2 And now I can rid of all that old code in here and "import"
-
 // ~~ CREATING A CUSTOMREACT HOOKS ~~
